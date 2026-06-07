@@ -26,21 +26,12 @@ document.addEventListener("click", (event) => {
 });
 
 // CLOSE MENU ON SCROLL
-window.onscroll = () => {
+window.addEventListener("scroll", () => {
   menuIcon.classList.remove("move");
   navLinks.classList.remove("open-menu");
-};
-
-// header shadow on scroll
-const header = document.querySelector("header");
-window.onscroll = () => {
+  // header shadow on scroll
   header.classList.toggle("shadow", window.scrollY > 0);
-};
-
-// or alternative way to add scroll event listener
-// window.addEventListener("scroll", () => {
-//   header.classList.toggle("shadow", window.scrollY > 0);
-// });
+});
 
 // scroll reveal animations
 const animate = ScrollReveal({
