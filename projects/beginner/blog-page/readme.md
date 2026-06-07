@@ -42,9 +42,14 @@ blog-page/
 - Structuring semantic HTML (article, section, nav)
 - Adding basic UI interactions with CSS transitions
 
-## Live Demo
 
-[View Project](#)
+## 🌐 **Live Preview**
+
+<div align="center">
+<a href="https://responsive-layout-rich.netlify.app/" target="_blank">
+  <img src="https://img.shields.io/badge/View%20Live-Netlify-brightgreen?style=for-the-badge" />
+</a>
+</div>
 
 ---
 

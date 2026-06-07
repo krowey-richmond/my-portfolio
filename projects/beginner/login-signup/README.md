@@ -3,8 +3,11 @@
 ## Overview
 A clean authentication UI with both login and signup forms, including client-side validation for required fields, password strength, and matching passwords.
 
-## Live Demo
-https://your-live-link-here
+<div align="center">
+<a href="https://responsive-layout-rich.netlify.app/" target="_blank">
+  <img src="https://img.shields.io/badge/View%20Live-Netlify-brightgreen?style=for-the-badge" />
+</a>
+</div>
 
 ## Features
 - Login and signup pages

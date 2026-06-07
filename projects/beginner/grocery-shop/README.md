@@ -2,6 +2,12 @@
 
 A responsive grocery e-commerce landing page built with HTML, CSS, and JavaScript. The project focuses on layout design, component structuring, and interactive UI behavior.
 
+<div align="center">
+<a href="https://responsive-layout-rich.netlify.app/" target="_blank">
+  <img src="https://img.shields.io/badge/View%20Live-Netlify-brightgreen?style=for-the-badge" />
+</a>
+</div>
+
 ## Overview
 
 This project simulates an online grocery store interface. It includes product listings, category sections, promotional banners, and a responsive navigation system.
@@ -35,9 +41,9 @@ The main focus was building a modern UI with reusable components and responsive 
 - Using third-party animation libraries
 - Improving UI responsiveness across breakpoints
 
-## Live Demo
 
-[View Project](#)
+
+
 
 ## Folder Structure
 

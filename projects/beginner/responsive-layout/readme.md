@@ -17,9 +17,8 @@
 5. [💻 Usage](#-usage)
 6. [🎓 Certificate](#-certificate)
 7. [🗂 File Structure](#-file-structure)
-8.  [🌐 Live Preview](#-live-preview)
+8. [🌐 Live Preview](#-live-preview)
 9. [🔗 Connect With Me](#-connect-with-me)
-10. [📜 License](#-license)
 
 ---
 
@@ -27,7 +26,7 @@
 
 > "A clean, mobile-first design with intuitive navigation and responsive grids that adapt seamlessly to any device."
 
-This project is the **final project** for [*Kevin Power's Concrete Responsive Layouts*](https://courses.kevinpowell.co/conquering-responsive-layouts) course. It showcases:
+This project is the **final project** for [_Kevin Power's Concrete Responsive Layouts_](https://courses.kevinpowell.co/conquering-responsive-layouts) course. It showcases:
 
 - Mobile-first approach for **optimal UX**
 - Flexible **CSS grid layouts**
@@ -41,8 +40,8 @@ This project is the **final project** for [*Kevin Power's Concrete Responsive La
 
 <div align="center">
 
-| Feature                   |Badge                                                                                      |
-| -----------------------------------------------------------------------------| ------------------------------------------------------------------------------ |
+| Feature                   | Badge                                                                                      |
+| ------------------------- | ------------------------------------------------------------------------------------------ |
 | Mobile-first design       | ![Mobile](https://img.shields.io/badge/Mobile-Responsive-brightgreen?style=for-the-badge)  |
 | Flexible CSS grids        | ![Grid](https://img.shields.io/badge/Grid-Flexible-blue?style=for-the-badge)               |
 | Custom breakpoints        | ![Breakpoint](https://img.shields.io/badge/Breakpoint-Custom-orange?style=for-the-badge)   |
@@ -74,13 +73,14 @@ This project is the **final project** for [*Kevin Power's Concrete Responsive La
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/krowey-richmond/responsive-layout.git
+   git clone https://github.com/krowey-richmond/my-portfolio.git
+
    ```
 
 2. Navigate to the project folder:
 
    ```bash
-   cd responsive-layout
+   cd my-portfolio/projects/beginner/responsive-layout
    ```
 
 3. Open `index.html` in your browser or deploy on Netlify.
@@ -109,19 +109,22 @@ Successfully completed under **Kevin Power’s Concrete Responsive Layouts cours
 
 ```
 responsive-layout/
-├── index.html          # Main HTML file
-├── script.js           # JS for hamburger toggle
+├── index.html
+├── script.js
 ├── styles/
 │   ├── general.css
 │   ├── tablet.css
 │   └── desktop.css
 ├── images/
 │   ├── logo.svg
-│   ├── the-image.jpg
-│   └── thumbnail.jpg   
-├── certificate.pdf     # Course certificate
+│   ├── mobile.png
+│   ├── tablet.png
+│   ├── laptop.png
+│   └── the-image.jpg
+├── certificate.pdf
 └── README.md
 ```
+
 ---
 
 ## 🌐 **Live Preview**
@@ -136,16 +139,10 @@ responsive-layout/
 
 ## 🔗 **Connect With Me**
 
-- GitHub: [Krowey Richmond Borquaye](https://github.com/krowey-richmond)  
+- GitHub: [Krowey Richmond Borquaye](https://github.com/krowey-richmond)
 - LinkedIn: [Richmond Borquaye Krowey
-](https://www.linkedin.com/in/krowey-richmond/)  
-- X (Twitter): [Kromo77](https://x.com/kromo772004)  
-
+  ](https://www.linkedin.com/in/krowey-richmond/)
+- X (Twitter): [Kromo77](https://x.com/kromo772004)
 
 > 💬 "Feel free to reach out for collaborations or portfolio reviews!"
 
----
-
-## 📜 **License**
-
-This project is **open-source** and free to use for personal or portfolio purposes.
