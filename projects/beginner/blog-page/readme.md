@@ -1,50 +1,53 @@
 # HP Omen 2020 Review Blog
 
-A modern, responsive blog site for reviewing the HP Omen 2020 laptop. This project features a clean layout, comment form, and navigation, styled with custom CSS.
+A responsive blog page that presents a detailed review of the HP Omen 2020 laptop. The project focuses on layout structure, responsive design, and modern CSS styling.
+
+## Overview
+
+This project simulates a product review blog. It includes a hero section, article sections, a card layout for related posts, and a simple comment form.
+
+The goal was to practice building a structured, multi-section webpage using semantic HTML and modern CSS techniques.
 
 ## Features
 
-- Responsive design for desktop and mobile
-- Sticky main navigation bar
-- Hero section with call-to-action
-- Article sections with images and headings
-- Grid of cards with hover transitions
-- User comment form with labeled inputs
-- Smooth CSS transitions and effects
-- Fixed footer
+- Responsive layout for mobile and desktop
+- Hero section with call-to-action button
+- Sticky navigation bar
+- Structured article sections
+- Grid-based related posts section
+- Basic comment form with validation attributes
+- Hover effects and smooth transitions
 
-## Getting Started
+## Tech Stack
 
-1. Clone or download the repository.
-2. Open `index.html` in your browser.
+- HTML5 (semantic structure)
+- CSS3 (Flexbox, Grid, media queries, transitions)
 
-## File Structure
+## Folder Structure
 
 ```
-hp-omen-2020/
-    index.html
-    styles.css
-    images/
-    regime.json
+
+blog-page/
+├── index.html
+├── styles.css
+├── images/
+
 ```
 
-## Customization
+## What I Learned
 
-- Update articles, hero content, and images in `index.html`.
-- Modify styles and layout in [`styles.css`](styles.css).
+- Building multi-section page layouts
+- Using CSS Grid for card layouts
+- Improving responsive design with media queries
+- Structuring semantic HTML (article, section, nav)
+- Adding basic UI interactions with CSS transitions
 
+## Live Demo
 
-## Technologies Used
+[View Project](#)
 
-- HTML5 semantic elements
-- Modern CSS (Flexbox, Grid, transitions, media queries)
-- Responsive design techniques
+---
 
-## Credits
+## Notes
 
-- Images: HP Omen 2020 product shots
-- Design and code: Krowey Richmond Borquaye
-
-## License
-
-This project is for educational/demo purposes.
+This is a frontend-only project with no backend functionality. The comment form is static and used for UI practice only.
