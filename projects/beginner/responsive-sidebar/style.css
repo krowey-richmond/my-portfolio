@@ -1,0 +1,242 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+:root {
+  --base-color: #11121a;
+  --line-color: #42434a;
+  --hover-color: #222533;
+  --text-color: #e6e6ef;
+  --accent-color: #5e63ff;
+  --secondary-text-color: #b0b3c1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5rem;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background-color: var(--base-color);
+  color: var(--text-color);
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+main {
+  padding: min(2rem, 7%);
+}
+
+main p {
+  color: var(--secondary-text-color);
+}
+
+.container {
+  border: 1px solid var(--line-color);
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+  padding: min(2.5rem, 15%);
+}
+
+.container p {
+  margin-top: 1rem;
+}
+
+#sidebar {
+  width: 250px;
+  height: 100vh;
+  padding: 0.35rem 1rem;
+  box-sizing: border-box;
+  background-color: var(--base-color);
+  border-right: 1px solid var(--line-color);
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  transition: width 0.3s ease-in-out;
+  overflow: hidden;
+  text-wrap: nowrap;
+}
+
+#sidebar.close {
+  width: 60px;
+  padding: 0.5rem;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar > ul > li:first-child {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+  .logo {
+    font-weight: 600;
+  }
+}
+
+#sidebar ul li.active a {
+  color: var(--accent-color);
+
+  svg {
+    fill: var(--accent-color);
+  }
+}
+
+#sidebar a,
+#sidebar .dropdown-btn,
+#sidebar .logo {
+  border-radius: 0.5rem;
+  padding: 0.65rem 1rem;
+  text-decoration: none;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#sidebar svg {
+  flex-shrink: 0;
+  fill: var(--text-color);
+}
+
+.dropdown-btn {
+  width: 100%;
+  border: none;
+  background: none;
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+}
+#sidebar a span,
+#sidebar .dropdown-btn span {
+  flex-grow: 1;
+}
+
+#sidebar a:hover,
+#sidebar .dropdown-btn:hover {
+  background-color: var(--hover-color);
+}
+
+#sidebar .sub-menu {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: 0.3s ease;
+  > div {
+    overflow: hidden;
+  }
+  a {
+    padding-left: 2rem;
+  }
+}
+
+#sidebar .sub-menu.show {
+  grid-template-rows: 1fr;
+}
+.dropdown-btn svg {
+  transition: 0.3s ease;
+}
+.rotate svg:last-child {
+  transform: rotate(-180deg);
+}
+
+#toggle-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  > svg {
+    transition: 0.2s ease;
+  }
+}
+
+#toggle-btn:hover {
+  background-color: var(--hover-color);
+}
+
+@media (max-width: 800px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+  main {
+    padding: 2rem 1rem 4rem 1rem;
+  }
+  .container {
+    border: none;
+    padding: 0;
+  }
+
+  #sidebar {
+    height: 4rem;
+    width: 100%;
+    padding: 0;
+    border-top: 1px solid var(--line-color);
+    border-right: none;
+    position: fixed;
+
+    top: unset;
+    bottom: 0;
+    ul li span,
+    ul li:first-child,
+    ul li .dropdown-btn svg:last-child {
+      display: none;
+    }
+    > ul {
+      padding: 0;
+      display: grid;
+      grid-auto-columns: 4rem;
+      grid-auto-flow: column;
+      align-items: center;
+      overflow-x: scroll;
+    }
+
+    ul li {
+      height: 100%;
+    }
+
+    ul a,
+    ul .dropdown-btn {
+      width: 4rem;
+      height: 4rem;
+      padding: 0;
+      border-radius: 0;
+      justify-content: center;
+    }
+
+    ul li .sub-menu.show {
+      position: fixed;
+      bottom: 4rem;
+      left: 0;
+      box-sizing: border-box;
+      width: 100%;
+      height: 4rem;
+      background-color: var(--hover-color);
+      border-top: 1px solid var(--line-color);
+      display: flex;
+      justify-content: center;
+      >div{
+        overflow-x: auto;
+      }
+      li {
+        display: inline-flex;
+      }
+
+      a{
+        box-sizing: border-box;
+        padding: 1rem;
+        width: auto;
+        justify-content: center;
+      }
+    }
+  }
+}
