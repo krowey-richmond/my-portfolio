@@ -32,7 +32,7 @@ hp-omen-2020/
 
 - Update articles, hero content, and images in `index.html`.
 - Modify styles and layout in [`styles.css`](styles.css).
-- See [`regime.json`](regime.json) for project metadata.
+
 
 ## Technologies Used
 
