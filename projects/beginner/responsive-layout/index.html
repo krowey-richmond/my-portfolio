@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Layout</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Base styles: always load -->
+    <link rel="stylesheet" href="./styles/general.css" />
+    <!-- Tablet overrides -->
+    <link
+      rel="stylesheet"
+      href="./styles/tablet.css"
+      media="(min-width: 701px) "
+    />
+
+    <!-- Desktop overrides -->
+    <link
+      rel="stylesheet"
+      href="./styles/desktop.css"
+      media="(min-width: 1001px)"
+    />
+  </head>
+  <body>
+    <!-- header section -->
+    <header>
+      <nav class="container">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="logo svg" />
+          <label for="nav-toggle" class="hamburger">☰</label>
+        </div>
+        <input type="checkbox" name="toggle" id="nav-toggle" />
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#" class="sign-up">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- hero section -->
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-title">
+            <h1>Responsive layouts <span>don’t have to be a struggle</span></h1>
+          </div>
+          <div class="hero-text">
+            <p>
+              Our easy to use interface allows you to create responsive layouts
+              quickly and easily. No more struggling with complex code or design
+              tools.
+            </p>
+            <a href="#" class="cta-btn">Get Started</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- design section -->
+      <section class="design">
+        <div class="container design-grid">
+          <div class="design-col">
+            <h2>Mobile-first</h2>
+            <p>
+              Designing for mobile first ensures that your layouts are optimized
+              for smaller screens and touch-based interactions. Start with a
+              solid foundation and build up from there.
+            </p>
+          </div>
+          <div class="design-col">
+            <h2>Flexible grids</h2>
+            <p>
+              Our flexible grid system allows you to create layouts that adapt
+              to any screen size. Easily adjust column widths and spacing to
+              create a seamless user experience.
+            </p>
+          </div>
+          <div class="design-col">
+            <h2>Breakpoints</h2>
+            <p>
+              With custom breakpoints, you can tailor your layouts to specific
+              devices and screen sizes. Ensure that your content looks great no
+              matter where it’s viewed.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- method section -->
+      <section class="method">
+        <div class="container method-content">
+          <!-- method image side -->
+          <div class="image-side">
+            <div class="method-row">
+              <h2 class="method-title">It doesn’t have to be so hard</h2>
+              <p class="method-text">
+                Our intuitive interface and powerful tools make it easy to
+                create responsive layouts that look great on any device. Say
+                goodbye to frustration and hello to beautiful designs. create
+                responsive layouts that look great on any device. Say goodbye to
+                frustration and hello to beautiful designs create responsive
+                layouts that look great on any device. Say goodbye to
+                frustration and hello to beautiful designs
+              </p>
+            </div>
+       
+              <img
+                class="method-img method-row container"
+                src="./images/the-image.jpg"
+                alt="devices illustration"
+              />
+     
+            <div class="method-row">
+              <p class="method-text">
+                Our intuitive interface and powerful tools make it easy to
+                create responsive layouts that look great on any device. Say
+                goodbye to frustration and hello to beautiful designs. create
+                responsive layouts that look great on any device. Say goodbye to
+                frustration and hello to beautiful designs create responsive
+                layouts that look great on any device. Say goodbye to
+                frustration and hello to beautiful designs
+              </p>
+            </div>
+          </div>
+          <!-- grid-side -->
+          <div class="grid-side">
+            <div class="grid-method">
+              <h2>Break it down</h2>
+              <p>
+                Our step-by-step approach makes it easy to create responsive
+                layouts. Start with a basic structure and build up from there,
+              </p>
+            </div>
+            <div class="grid-method">
+              <h2>Test and refine</h2>
+              <p>
+                With our built-in testing tools, you can see how your layouts
+                look on different devices and screen sizes. Make adjustments as
+                needed
+              </p>
+            </div>
+            <div class="grid-method">
+              <p>
+                Once you’re happy with your layouts, publish them with just a
+                few clicks. Our platform ensures that your designs look great
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer section -->
+    <footer>
+      <div class="container footer-content">
+        <h2 class="footer-title">just scratching the surface</h2>
+
+        <div class="footer-box">
+          <div class="footer-about">
+            <h2>About the company</h2>
+            <p>
+              We are dedicated to making responsive design easy and accessible
+              for everyone. Our platform is designed to help you create stunning
+              layouts without the hassle.
+            </p>
+          </div>
+          <!-- footer links -->
+          <div class="footer-links">
+            <div class="link-col">
+              <h2>Getting around</h2>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="link-col">
+              <h2>Support</h2>
+              <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Frequently asked Questions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="link-col">
+              <h2>Connect</h2>
+              <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
